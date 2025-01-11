@@ -1,0 +1,5 @@
+FROM mysql
+ENV MYSQL_ROOT_PASSWORD=barsaat
+ENV MYSQL_DATABASE=facebook
+EXPOSE 3306
+CMD ["mysqld"]
